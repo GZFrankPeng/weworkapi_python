@@ -12,7 +12,7 @@
  #
  
 import sys
-sys.path.append("D:/learngit/weworkapi_python/api/src")
+sys.path.append("D:/Python/weworkapi_python/api/src")
 
 import random
 
