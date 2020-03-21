@@ -12,7 +12,7 @@
  #
  
 import sys
-sys.path.append("../src/")
+sys.path.append("D:/learngit/weworkapi_python/api/src")
 
 import random
 
@@ -27,8 +27,8 @@ try :
     response = api.httpCall(
             CORP_API_TYPE['MESSAGE_SEND'],
             {
-                "touser": "ZhuShengBen",
-                "agentid": 1000002,
+                "touser": "penghaifeng",
+                "agentid": 1000015,
                 'msgtype' : 'text',
                 'climsgid' : 'climsgidclimsgid_%f' % (random.random()),
                 'text' : {
@@ -36,7 +36,7 @@ try :
                 },
                 'safe' : 0,
             })
-    print response 
+    print (response) 
 except ApiException as e :
-    print e.errCode, e.errMsg
+    print (e.errCode, e.errMsg)
 
