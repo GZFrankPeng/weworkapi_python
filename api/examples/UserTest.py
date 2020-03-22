@@ -12,7 +12,7 @@
  #
  
 import sys
-sys.path.append("../src/")
+sys.path.append("D:/Python/weworkapi_python/api/src")
 
 from CorpApi import *
 from TestConf import * 
@@ -29,9 +29,9 @@ try :
                 'name' : 'zhangsanfeng',
                 'mobile' : '131488888888',
                 'email' : 'zhangsan@ipp.cas.cn',
-                'department' : 1,
+                'department' : '1',
             })
-    print response 
+    print (response) 
 
     ##
     response = api.httpCall(
@@ -39,7 +39,7 @@ try :
             { 
                 'userid' : 'zhangsan',
             })
-    print response
+    print (response)
 
     ##
     response = api.httpCall(
@@ -47,10 +47,10 @@ try :
             { 
                 'userid' : 'zhangsan',
             })
-    print response
+    print (response)
 
 except ApiException as e :
-    print e.errCode, e.errMsg
+    print (e.errCode, e.errMsg)
 
     ##
     response = api.httpCall(
@@ -58,6 +58,6 @@ except ApiException as e :
             { 
                 'userid' : 'zhangsan',
             })
-    print response
+    print (response)
 
 

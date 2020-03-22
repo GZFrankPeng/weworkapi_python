@@ -32,7 +32,7 @@ try :
                 'msgtype' : 'text',
                 'climsgid' : 'climsgidclimsgid_%f' % (random.random()),
                 'text' : {
-                    'content':'方法论',
+                    'content':'Hello,方法论',
                 },
                 'safe' : 0,
             })

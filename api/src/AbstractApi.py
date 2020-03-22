@@ -18,7 +18,7 @@ import re
 import json
 import requests
 
-sys.path.append("../../")
+sys.path.append("D:/Python/weworkapi_python")
 
 from conf import DEBUG
 

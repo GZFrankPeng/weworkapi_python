@@ -19,7 +19,7 @@ TestConf = {
     "CORP_ID"               : "wwbd8f59458c7449bd",
 
     # "通讯录同步"应用的secret, 开启api接口同步后，可以在管理端->"通讯录同步"看到
-    "CONTACT_SYNC_SECRET"   : "ktmzrVIlUH0UW63zi7-JyzsgTL9NfwUhHde6or6zwQY",
+    "CONTACT_SYNC_SECRET"   : "cwcGb7p0IGlqoLn16wPONKn-mPzdcpeUpyKZesaIKJQ",
 
     # 某个自建应用的id及secret, 在管理端 -> 企业应用 -> 自建应用, 点进相应应用可以看到
     "APP_ID"                : 1000015,
